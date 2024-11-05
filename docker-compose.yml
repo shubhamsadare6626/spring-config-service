@@ -1,0 +1,5 @@
+version: '3'
+services:
+  spring-config-service:
+    container_name: spring-config-service
+    image: personal/spring-config-service
