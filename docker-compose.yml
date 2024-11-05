@@ -3,3 +3,5 @@ services:
   spring-config-service:
     container_name: spring-config-service
     image: personal/spring-config-service
+    ports:
+    - 8888:8888

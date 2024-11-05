@@ -1,6 +1,6 @@
 FROM azul/zulu-openjdk-alpine:17-jre-headless-latest
 RUN apk add --no-cache tzdata
-ENV TZ Asia/Kuala_Lumpur
+ENV TZ Asia/Kolkata
 VOLUME /tmp
 
 COPY target/spring-config-service-0.0.1.jar app.jar
