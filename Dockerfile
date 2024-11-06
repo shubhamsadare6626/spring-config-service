@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk-alpine:17-jre-headless-latest
+FROM openjdk:17-jdk-alpine
 RUN apk add --no-cache tzdata
 ENV TZ Asia/Kolkata
 VOLUME /tmp
